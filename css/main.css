@@ -7,11 +7,11 @@ body {
     color: #424242;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 800px) {
   .container {
-    max-width: 730px;
+    max-width: 1024px;
   }
-}
+}*/
 /**
  * //////////////////////////
  * Font and link declarations
