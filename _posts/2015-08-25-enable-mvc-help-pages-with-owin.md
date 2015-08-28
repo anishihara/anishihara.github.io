@@ -11,21 +11,20 @@ Searching through the internet I found this answer on StackOverflow: [Can't get 
 
 The solution is simple:
 
-1. On OWIN *Startup.cs* or equivalent file, expose `HttpConfiguration` and register the help page area with  `AreaRegistration.RegisterAllAreas()`:
-    
-{% highlight csharp %}
-        public class Startup 
-        { 
-    		public static HttpConfiguration HttpConfiguration { get; private set; } 
-    			
-    		public void Configuration(IAppBuilder app) 
-    		{ 
-    			HttpConfiguration = new HttpConfiguration();
-    			AreaRegistration.RegisterAllAreas(); 
-    	 		WebApiConfig.Register(HttpConfiguration);
-    	 		app.UseWebApi(HttpConfiguration); 
-    	 	} 
-		}
-{% endhighlight %}
+* On OWIN *Startup.cs* or equivalent file, expose `HttpConfiguration` and register the help page area with  `AreaRegistration.RegisterAllAreas()`:
 
-2. Replace all the `GlobalConfiguration.Configuration` with `Startup.HttpConfiguration`, in my case, only in `HelpPageAreaRegistration.RegisterArea` and in `HelpController` constructor.
+   ```csharp
+   public class Startup 
+   { 
+       public static HttpConfiguration HttpConfiguration { get; private set; } 
+       public void Configuration(IAppBuilder app) 
+       { 
+           HttpConfiguration = new HttpConfiguration();
+    	   AreaRegistration.RegisterAllAreas(); 
+    	   WebApiConfig.Register(HttpConfiguration);
+    	   app.UseWebApi(HttpConfiguration); 
+        } 
+   } 
+   ```
+
+* Replace all the `GlobalConfiguration.Configuration` with `Startup.HttpConfiguration`, in my case, only in `HelpPageAreaRegistration.RegisterArea` and in `HelpController` constructor.
