@@ -1,10 +1,10 @@
-name: Simply Grey
+name: nishihara.me
 markdown: redcarpet
 highlighter: pygments
-github: https://www.github.com/exaem
-about: I am an independent developer from the sunny UK. I dabble in Ruby, play in C and I'm an avid systems administrator.
+github: https://github.com/anishihara
+about: I am a developer.
 urls:
     - text: github
-      url: https://github.com/exaem
+      url: https://github.com/anishihara
     - text: email
-      url: mailto:exaem@exaem.co.uk
+      url: mailto:anderson@nishihara.me
