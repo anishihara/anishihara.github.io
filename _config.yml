@@ -3,6 +3,7 @@ markdown: redcarpet
 highlighter: pygments
 github: https://github.com/anishihara
 about: I am a developer.
+paginate: 5
 urls:
     - text: github
       url: https://github.com/anishihara
