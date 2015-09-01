@@ -4,6 +4,7 @@ highlighter: pygments
 github: https://github.com/anishihara
 about: I am a developer.
 paginate: 5
+permalink: pretty
 urls:
     - text: twitter
       url: https://twitter.com/anishihara
