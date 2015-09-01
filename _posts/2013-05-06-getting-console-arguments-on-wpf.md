@@ -2,7 +2,8 @@
 layout: post
 title:  "Getting console arguments on WPF"
 date:   2015-05-06 12:00:00 
-categories: csharp, wpf
+categories: csharp
+comments: True
 ---
 
 Remove the following from the **App.xaml**:

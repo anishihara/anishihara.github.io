@@ -3,6 +3,7 @@ layout: post
 title:  "Universal Google Analytics (universal.js) with AngularJS and ngRoute"
 date:   2015-08-28 09:00:00 
 categories: javascript
+comments: True
 ---
 
 On [Universal Google Analytics documentation for Single Page Application](https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications) it is described how we can send tracking data to Google Analytics with the following snippet:

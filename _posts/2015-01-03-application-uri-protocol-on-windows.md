@@ -3,6 +3,7 @@ layout: post
 title:  "Application URI protocol on Windows"
 date:   2015-01-03 12:00:00 
 categories: windows
+comments: True
 ---
 
 There is a feature that we can use to make links on browser that can open specific applications registered to that kind of uri. For example, if you want to open itunes from the safari browser on a Mac, just type **[itmss://](itmss://)** on the address and hit enter.

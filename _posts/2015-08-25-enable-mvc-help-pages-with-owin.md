@@ -3,6 +3,7 @@ layout: post
 title:  "Enable .net MVC Help Pages with OWIN and Katana"
 date:   2015-08-25 00:18:23 
 categories: csharp
+comments: True
 ---
 
 I was having a problem when developing a Web Api 2 project with Owin: help page were not generated as I expected. I followed the tutorial [Creating Help Pages for ASP.NET Web API](http://www.asp.net/web-api/overview/getting-started-with-aspnet-web-api/creating-api-help-pages) and yet, it was missing something to get it working with OWIN and KATANA.
