@@ -2,7 +2,7 @@ name: nishihara.me
 markdown: redcarpet
 highlighter: pygments
 github: https://github.com/anishihara
-about: I am a developer.
+about: I am a developer and photography enthusiast.
 paginate: 5
 permalink: pretty
 urls:
@@ -10,3 +10,5 @@ urls:
       url: https://twitter.com/anishihara
     - text: github
       url: https://github.com/anishihara
+    - text: flickr
+      url: https://www.flickr.com/photos/90282328@N02/
