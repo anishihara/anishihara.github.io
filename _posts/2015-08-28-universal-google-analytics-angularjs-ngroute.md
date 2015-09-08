@@ -6,11 +6,9 @@ categories: javascript
 comments: True
 ---
 
-On [Universal Google Analytics documentation for Single Page Application](https://developers.google.com/analytics/devguides/collection/analyticsjs/single-page-applications) it is described how we can send tracking data to Google Analytics with the following snippet:
+I was researching for a way to track user data with Google Analytics on an AngularJS application and found this article: [Google Analytics and AngularJS with UI Router](http://www.arnaldocapo.com/blog/post/google-analytics-and-angularjs-with-ui-router/72).
 
- `ga('send', 'pageview', '/new-page');`
-
-Instead of sending data manually on each controller on AngularJS, we can can implement to send data when the event `$routeChangeSuccess` is called:
+To make Google Universal Analytics work with AngularJS and ngRoute I had to make a little modification to get the `$routeChangeSuccess` event instead of `$stateChangeSuccess`:
 
 ```javascript
     angular.module('App', []).run(['$rootScope', '$location', '$window', 
@@ -22,4 +20,4 @@ Instead of sending data manually on each controller on AngularJS, we can can imp
     }]);
 ```
 
-**PS**: Don´t forget to add the code given by Google on *index.html* and comment `ga('send', 'pageview');`.
+**PS**: Don´t forget to add the code given by Google on *index.html* and comment `ga('send', 'pageview');` to stop firing Google Analytics when loading the page for the first time.
