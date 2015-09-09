@@ -5,6 +5,7 @@ github: https://github.com/anishihara
 about: I am a developer and photography enthusiast.
 paginate: 5
 permalink: pretty
+url: http://blog.nishihara.me
 urls:
     - text: twitter
       url: https://twitter.com/anishihara
