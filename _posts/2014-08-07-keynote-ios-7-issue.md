@@ -4,6 +4,7 @@ title:  "Issue: can't control keynote on IOS device from another IOS device over
 date:   2014-08-07 00:00:23 
 categories: ios
 comments: True
+description: If your device is using IOS 7, it can control Keynote presentation on a device using IOS 8 over wifi but not on bluetooth.
 ---
 
 After my advice professor showed me, I was thrilled by the possibility to use keynote on iPad for presentation. I would just plug my VGA cable on iPad 2 and start my presentation without a notebook. A perfect combo would be control remotely the keynote on iPad using an iPhone. So, I tried to connect the two devices...

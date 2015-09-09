@@ -4,6 +4,7 @@ title:  "Universal Google Analytics (universal.js) with AngularJS and ngRoute"
 date:   2015-08-28 09:00:00 
 categories: javascript
 comments: True
+description: Tracking user data with Universal Google Analytics (universal.js) and AngularJS with ngRoute. No additional library is necessary.
 ---
 
 I was researching for a way to track user data with Google Analytics on an AngularJS application and found this article: [Google Analytics and AngularJS with UI Router](http://www.arnaldocapo.com/blog/post/google-analytics-and-angularjs-with-ui-router/72).

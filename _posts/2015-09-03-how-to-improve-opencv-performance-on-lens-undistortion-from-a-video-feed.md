@@ -4,6 +4,7 @@ title:  "How to improve OpenCV performance on lens undistortion from a video fee
 date:   2015-09-03 09:00:00 
 categories: opencv
 comments: True
+description: This article shows how to improve OpenCV performance for lens undistortion on iPad or iPhone reusing computed maps.
 ---
 
 Currently, for my master's dissertation, I am developing a software for IOS (iPad) which uses OpenCV to process images. 

@@ -4,6 +4,7 @@ title:  "Getting console arguments on WPF"
 date:   2015-05-06 12:00:00 
 categories: csharp
 comments: True
+description: Simple snippet in csharp (c#) to get console arguments from a WPF application.
 ---
 
 Remove the following from the **App.xaml**:
