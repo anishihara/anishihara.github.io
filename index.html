@@ -17,6 +17,7 @@ layout: default
     <span class="time">{{ post.date | date_to_string }}</span>
   <div class="content">
     <div class="post">{{ post.excerpt }}</div>
+    <div class="see-more-link"><a href="{{ post.url }}">see more...</a></div>
   </div>
   </div>
 {% endfor %}
