@@ -7,7 +7,7 @@ comments: True
 description: This article shows how to improve OpenCV performance for lens undistortion on iPad or iPhone reusing computed maps.
 sitemap:
   lastmod: 2015-09-09
-  priority: 0.7
+  priority: 0.5
   changefreq: monthly
 ---
 
