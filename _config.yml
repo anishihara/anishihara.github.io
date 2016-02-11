@@ -1,6 +1,6 @@
 name: nishihara.me
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 github: https://github.com/anishihara
 about: I am a developer and photography enthusiast.
 paginate: 5
