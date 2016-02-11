@@ -1,5 +1,5 @@
 name: nishihara.me
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 github: https://github.com/anishihara
 about: I am a developer and photography enthusiast.
