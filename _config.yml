@@ -14,3 +14,9 @@ urls:
       url: https://github.com/anishihara
     - text: flickr
       url: https://www.flickr.com/photos/90282328@N02/
+
+include:
+ - _app.js  # para o next funcionar
+ - _next    # para o next funcionar
+ - _buildManifest.js  # para o next funcionar
+ - _ssgManifest.js  # para o next funcionar
